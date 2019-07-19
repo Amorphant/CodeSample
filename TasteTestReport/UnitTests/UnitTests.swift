@@ -3,7 +3,7 @@
 //  UnitTests
 //
 //  Created by Amorphant on 7/14/19.
-//  Copyright © 2019 LaCroix. All rights reserved.
+//  Copyright © 2019 David Artman. All rights reserved.
 //
 
 import XCTest
