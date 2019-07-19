@@ -15,6 +15,10 @@ xcodebuild -scheme TasteTestReport build
 
 From here, the executable is located at "Build/Products/Debug/TasteTestReport". The executable can also be built after opening the project in Xcode, and will be at the aforementioned location relative to the project file's directory.
 
+### Expected Input
+
+The expected format for input files is in sample-input.txt. Note that I did not include extensive validation of input files, since this was meant as a small sample of my code.
+
 ### Usage
 
 The executable takes a single command line parameter, specifying the source file to be read. If no file is specified, it will attempt to read sample-input.txt from the current directory (note that after building as outlined above, this file will be one folder back).
