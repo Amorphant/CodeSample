@@ -1,0 +1,19 @@
+
+BUILDING:
+
+Use the following commands from the root folder of your cloned repo:
+
+   cd TasteTestReport
+   xcodebuild -scheme TasteTestReport build
+
+From here, the executable is located at "Build/Products/Debug/TasteTestReport". The executable can also be built after opening the project in Xcode, and will at the aforementioned location relative to the project file's directory.
+
+
+RUNNING:
+
+The executable takes a single command line parameter, specifying the source file to be read. If no file is specified, it will attempt to read sample-input.txt from the current directory (note that after building as outlined above, this wile will be one folder back).
+
+
+TESTING:
+
+Unit tests can be run by opening the project in Xcode and hitting Cmd-U.
